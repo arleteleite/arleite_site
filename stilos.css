@@ -2,6 +2,7 @@
         /*centralizar o formulario na página*/
         margin: 0% auto;
         width: 500px;
+        height: 200px;
         padding: 2em;
         border: 1px solid #ccc;
         border-radius: 1.2em;
@@ -25,13 +26,54 @@
             font-style: normal;
             text-align: left;
             background-color: #e1ede1;
+            font-size: 30px;
         }
         h3{
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
             font-style: normal;
             text-align: center;
+            font-size: 20px;
         }
         .botao{
             float: right; 
+            border: none;
+            border-radius: 10px;
+            padding: 10px 15px;
+            outline: none;
+            background-color: aqua;
+            color: #000;
+            font-size: 15px;
+            box-shadow: 3px 8px #eedc82;
+            cursor: pointer;
         }
+        .botao:hover{
+            background-color: #6495ed;
+        }
+        .botao:active{
+            background-color: #6495ed;
+            box-shadow: 3px 3px #8b864e;
+            transform: translateY(4px);
+        }
+        th{
+            background-color: #dddddd
+        }
+		td, th {
+			border: 1px solid #dddddd;
+			text-align: left;
+			padding: 8px;
+		}
+			
+		.displayed {
+			display: block;
+			margin: auto;
+        }
+			
+		div.a{
+			text-align:center;
+		}
+        p{
+            font-size: 15px;
+
+        }
+
 
