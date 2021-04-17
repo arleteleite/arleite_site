@@ -5,31 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário</title>
-    <style>
-        form{
-        /*centralizar o formulario na página*/
-        margin: 0% auto;
-        width: 500px;
-        padding: 1cm;
-        border: 1px solid #ccc;
-        border-radius: 1.5cm;
-        }
-        ul{
-            list-style: none;
-            padding: 0%;
-            margin: 1%;
-        }
-        form li+li{
-            margin-top: 0.4cm;
-        }
-        label{
-            display: inline-block;
-            width: 90px;
-            text-align: right;
-        }
-    </style>
+    <link rel="stylesheet" href="stilos.css">
     
-
 </head>
 <body>
     <h1>Entre em contato</h1>
@@ -46,11 +23,12 @@
                 <input type="email" id="email" name="emailUsuario">
             </li>
             <li>
-                <label for="mensagem">Deixe sua mensagem</label>
-                <input type="text" id="mensagem" name="mensagemUsuario">
+                <label for="mensagem">Deixe aqui sua mensagem:</label>
+                <textarea name="mensagem" style="width:170px; height:px;"></textarea>
             </li>
         </ul>
-        <input type="submit" value="Enviar"
+        <br>        
+        <input type="submit" value="Enviar" class="botao"/>
     </form>
 </body>
 </html>
